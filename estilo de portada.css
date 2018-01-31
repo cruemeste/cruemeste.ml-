@@ -1,0 +1,112 @@
+
+body {background-color: #D9E911}
+* {margin: 0x; padding: 0}
+ header  {width: 100%; position:
+relative;bottom:148px;}
+
+nav {margin: 20px auto;
+	width: 100%;
+	max-width: 1400px;}
+
+nav ul {
+	list-style:none;}
+
+nav > ul {
+	display: table; 
+	overflow: hidden;
+	width: 100%;
+	background: #000;
+	position: relative;}
+
+nav > ul li  {
+	display: table-cell;}
+
+nav > ul > li > ul{
+	display: none;}
+
+nav > ul li a{
+	color:#fff;
+	display: block;
+	line-height: 20px;
+	padding: 20px;
+	position: relative;
+	text-align:center;
+	text-decoration: none;
+
+	-webkit-transition: all 3s ease;
+-moz-transition: all 3s ease;
+-ms-transition: all 3s ease;
+-o-transition: all 3s ease;
+transition: all 3s ease;}
+ 
+nav > ul > li > ul >li a:hover {
+	background: #5da5a2
+}
+
+nav > ul > li > a span {
+	background: #174459;
+	display:block;
+	height: 100%;
+	width:100%;
+	left: 0;
+	position: absolute;
+	top: -55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;}
+
+	nav > ul > li> a span .icon{
+		display: block;
+		line-height: 60px;}
+
+		nav > ul > li > a:hover > span {
+			top: 0px;}
+
+			/*colores*/
+
+			nav ul li a .primero{background: #f3ff3f}
+			nav ul li a .segundo{background: #f14f2c}
+			nav ul li a .tercero{background: #9df12c}
+			nav ul li a .cuarto{background: #2ccdf1}
+
+
+.fondo{     width: 100%;   height: 80%; padding: 0; margin: 0; margin-top: 0; padding-top: 0;  position: absolute; right: 0px; bottom:0px;} 
+.salud {width: 15%;height: 10%; position: relative;bottom: 120px; dominant-baseline: }
+.escudo {width: 15%;height: 20%; position: relative; left: 850px; bottom: 180px;}
+.slider{width: 75%; display: no; margin:0;  padding: 0;  overflow: hidden; position: relative; bottom:470px; left: 120PX;  }
+.slider ul {padding: 0; display: flex; width: 400%; animation: cambio 25s infinite; animation-direction: alternate;	}
+.slider li {list-style: none; width: 100%;}
+.slider img {width: 100%;}
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20%{margin-left: 0;}
+
+	20%{margin-left: -100%;}
+	50%{margin-left: -100%;}
+
+	55%{margin-left: -200%;}
+	70%{margin-left: -200%;}	
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+} 
+
+.traslucido {position: relative; bottom: 50px; left: 115px;}
+.facebook {position: relative;top: 0px; left: 730px;}
+.whatsapp {position: relative;top: 0px; left: 730px;}
+.instagram {position: relative;top:0px; left: 730px;}
+.baner {padding: 0; margin: 0;}
+
+.contenido1{position: relative;bottom: 450px; left: 114px; display: block;}
+.texto1 {position: relative;bottom: 540px; left: 120px;}
+
+.contenido2{position:relative;bottom: 813px; left: 446px;}
+.texto2 {position: relative;bottom: 902px; left: 456px;}
+
+.contenido3{position: relative;bottom: 1176px; left: 778px;}
+.text3 {position: relative;bottom: 1266px; left: 785px;}
+
+.clima{position: relative;bottom: 900px; left: 520px;}
+
